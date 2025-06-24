@@ -1,0 +1,44 @@
+# 🐍 Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pkl
+
+# 🔒 Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# 🔧 IDE/editor settings
+.vscode/
+.idea/
+
+# 📊 Jupyter notebooks & checkpoints (if any)
+.ipynb_checkpoints/
+
+# 🧪 Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+pytest_cache/
+
+# 🚫 System files
+.DS_Store
+Thumbs.db
+
+# 🔽 Pip or Conda files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 📦 Package distributions
+build/
+dist/
+*.egg-info/
+
+# 🌐 Streamlit-specific
+.streamlit/config.toml
